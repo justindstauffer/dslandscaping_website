@@ -17,7 +17,7 @@ const Example = (props) => {
   return (
     <div>
       <Navbar style={{background: '#006738'}} dark expand="md" fixed='top'>
-        <NavbarBrand style={{color: '#E5C595'}} href="/">DS Landscaping & Maintenance</NavbarBrand>
+        <NavbarBrand style={{color: '#E5C595'}} href="/">DS Landscape & Maintenance</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>

@@ -17,11 +17,15 @@ const homeSection1 = () => {
             <div className="col-md-6 text-center bg-light text-dark p-4" style={{
             }}>
                 <h1>Orlando Landscaping & Maintenance</h1>
-                <p>DS Landscaping & Maintenance, Inc. has been serving Central Florida since 1991.
+                <p>DS Landscape & Maintenance, Inc. has been serving Central Florida since 1991.
                     Providing complete residential and commercial landscaping solutions for property
                     owners and managers. Customizing design and installation to create immaculate properties.
                      Contact us today for a free quote on your next landscaping project!</p>
-
+                <button className='btn text-dark p-2 font-weight-bold'
+                    style={{
+                        background: '#E5C595',
+                        boxShadow: '0px 0px 10px 5px #000'
+                    }}>407-671-4800</button>
             </div>
 
 

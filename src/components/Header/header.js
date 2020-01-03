@@ -1,6 +1,6 @@
 import React from 'react'
 import BGImage from '../../Images/PinkFlowers.jpg'
-import Image from '../../Images/ds-icon.png'
+import Image from '../../Images/ds-logo.png'
 
 const header = () => {
     return (
@@ -16,12 +16,17 @@ const header = () => {
                     display: 'flex',
                     flexDirection: 'row',
                     justifyContent: 'center',
-                    alignItems: 'center'
+                    alignItems: 'center',
+
                 }}>
                 <div>
                     <img style={{
                         maxHeight: '200px',
-                        background: 'rgba(255, 255, 255, 0.5)'
+                        margin: '1rem',
+                        background: 'rgba(255, 255, 255, 0.7)',
+                        padding: '1rem',
+                        borderRadius: '4rem',
+                        boxShadow: '0px 0px 10px 3px white'
                     }} src={Image} alt="DS Logo" />
                 </div>
 

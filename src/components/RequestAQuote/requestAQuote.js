@@ -3,10 +3,9 @@ import { Button, Form, FormGroup, Label, Input, Row, Col } from 'reactstrap';
 
 const Example = (props) => {
     return (
-        <Form style={{
+        <Form className="p-4" style={{
             margin: '0',
             color: '#E5C595',
-            padding: '1rem'
         }}>
             <h1>Request A Quote</h1>
             <Row form>
