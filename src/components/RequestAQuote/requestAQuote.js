@@ -37,8 +37,8 @@ const Example = (props) => {
                 </Col>
             </Row>
             <FormGroup>
-                <Label for="comments">Project Details</Label>
-                <Input type="textarea" placeholder="Enter project details" />
+                <Label for="projectDetails">Project Details</Label>
+                <Input type="textarea" name="projectDetails" id="projectDetails" placeholder="Enter project details" />
             </FormGroup>
             <Button className="text-dark" style={{
                 background: '#E5C595',
