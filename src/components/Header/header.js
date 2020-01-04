@@ -1,6 +1,5 @@
 import React from 'react'
-import BGImage from '../../Images/PinkFlowers.jpg'
-import Image from '../../Images/ds-logo.png'
+import BGImage from '../../Images/backyard2.jpg'
 
 const header = () => {
     return (
@@ -8,7 +7,7 @@ const header = () => {
             margin: '0',
             paddingTop: '3.5rem'
         }}>
-            <div className="col-md-12 text-center bg-success"
+            <div id="headerImage" className="col-md-12 text-center bg-success"
                 style={{
                     minHeight: '400px',
                     backgroundImage: `url(${BGImage})`,
@@ -19,7 +18,7 @@ const header = () => {
                     alignItems: 'center',
 
                 }}>
-                <div>
+                {/* <div>
                     <img style={{
                         maxHeight: '200px',
                         margin: '1rem',
@@ -28,7 +27,7 @@ const header = () => {
                         borderRadius: '4rem',
                         boxShadow: '0px 0px 10px 3px white'
                     }} src={Image} alt="DS Logo" />
-                </div>
+                </div> */}
 
                 {/* <button className='btn text-dark p-2 font-weight-bold'
                     style={{
